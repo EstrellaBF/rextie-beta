@@ -1,0 +1,62 @@
+const { resolve } = require('path');
+
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const OpenBrowserWebpackPlugin = require('open-browser-webpack-plugin');
+
+module.exports = {
+  context:  resolve(__dirname, 'src'),
+  entry: './index.js',
+  output: {
+    path: resolve(__dirname, 'public'),
+    publicPath: '',
+    filename: 'bundle.js',
+  },
+  /*Solo sirve para development*/
+  devServer: {
+    contentBase: resolve(__dirname, 'public'),
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              'env',
+              'react',
+              'react-boilerplate'
+            ]
+          }
+        }
+      },
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'css-loader' }
+        ]
+       },
+       {
+         test: /\.(png|jpg|gif)$/,
+         use: [
+           {
+             loader: 'file-loader',
+             options: {}  
+           }
+         ]
+       }
+    ]
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: resolve(__dirname, 'public', 'index.html'),
+      filename: 'index.html'
+    }),
+    new OpenBrowserWebpackPlugin({
+      url: 'http://localhost:8080'
+    })
+  ]
+}
