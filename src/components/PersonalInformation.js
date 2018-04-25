@@ -1,6 +1,5 @@
 import React from 'react';
 import PersonalInformationUser from './PersonalInformationUser';
-import logito from '../assets/icons/icon.png'
 
 const data = {
   personalInfo: { title: 'Cuenta Personal', otherInfo: [['DNI:', 78451235], ['Ponte', 'Ana']] },
@@ -20,7 +19,6 @@ const data = {
 
 const PersonalInformation = () => (
   <div className="personal-information">
-    <img src={logito} alt={logito} />
     <h3>Perfil</h3>
     {/* <div className=""> */}
       <PersonalInformationUser info={data.infopersonal}/>
