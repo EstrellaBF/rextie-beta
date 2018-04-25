@@ -1,4 +1,5 @@
 import React from 'react';
+// import iconDollar from '../assets/icons/us.png'
 
 const NewOperationUSD = ({setExchangeChanged, firstText, inputText, setInputText, buy, moneyType, us, placeholder}) => (
   <div>
@@ -9,7 +10,7 @@ const NewOperationUSD = ({setExchangeChanged, firstText, inputText, setInputText
   }}>Compra:{' '}<span>{buy}</span></p>
     </div>
     <div className="coin">
-      <span>{moneyType}</span><span><img className="flag-icon" src={"../assets/icons/" + us} alt={us} /></span>
+      <span>{moneyType}</span><span><img className="flag-icon" src={us} alt={us} /></span>
     </div>
     <div className="what-i-have">
       <p>{firstText}</p>

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import plusButton from '../assets/icons/plus-button.png'
+
 function hacerClick()
 	{
 		alert("Me haz dado un click");
@@ -11,7 +13,7 @@ const RegisterAccount = ({ click }) => {
   <div className="personal-bank-account">
     <div className="header-personal-bank-account">
       <h3>Cuentas Bancarias Personales -  </h3>
-      <img src="assets/icons/simbolo-mas-en-un-cuadrado-negro-redondeado.png" />
+      <img src={plusButton} />
     </div>
     <div className="soles-account">
       <p>Soles</p>

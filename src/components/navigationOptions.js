@@ -5,7 +5,7 @@ const NavigationOptions = ({text, icon, route}) => {
   return(
     <li className="list-group-item">
       <Link to={route} key={route}>
-        <span><img className="navigation-icon" src={"../../assets/icons/" + icon} alt={icon} key={icon}/></span><span>{text}</span>
+        <span><img className="navigation-icon" src={icon} alt={icon} key={icon}/></span><span>{text}</span>
       </Link>
     </li>
   )

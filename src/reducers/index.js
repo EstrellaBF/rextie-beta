@@ -1,4 +1,7 @@
 import {actionTypes} from '../actions/index';
+import iconSoles from '../assets/icons/pe.png';
+import iconDollar from '../assets/icons/us.png';
+
 
 const DATA = {
   iHaveText: 'Tengo',
@@ -9,8 +12,8 @@ const DATA = {
   money2: 'USD $',
   placeholder1: 'Input',
   placeholder2: 'Output',
-  flag1: 'pe.png',
-  flag2: 'us.png',
+  flag1: iconSoles,
+  flag2: iconDollar,
   text1: '',
   text2: '',
   accounts: [

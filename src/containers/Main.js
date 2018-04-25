@@ -8,7 +8,6 @@ const mapStateToProps = ({paginaActual}) => ({
 
 const mapDispatchToProps = (dispatch) => ({
   navigateTo: (pagina) => {
-    console.log('navegando entre paginas');
     dispatch({
       type: 'NAVIGATE_TO',
       pagina

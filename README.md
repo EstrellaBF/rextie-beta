@@ -1,277 +1,113 @@
-# Joinnus
+# RETO REXTIE  
 
-Start up peruana de difusión de eventos y venta de entradas por internet y dispositivos móviles.
+Rextie es un servicio de cambio de dólares por internet (www.rextie.com) registrado
+Como casa de cambio en la Superintendencia de Banca, Seguros y AFP (SBS). Está
+dirigido a personas, pequeñas y medianas empresas.  
 
-## Requisitos
+#### ENUNCIADO:
+Proponer un nuevo diseño de la aplicación web (zona privada) que facilite a los
+usuarios realizar una cotización y operación de cambio de dólares.  
 
-Desarrollar una interface que permita realizar la compra de tickets para eventos de tipo teatro,
-considerar que los escenarios pueden tener más de 1 piso.
+Dado este contexto:  
 
-## Vista previa
+**→ ¿Cómo hacer para crear un diseño más intuitivo y que a su vez mejore la experiencia en la web de Rextie?**  
 
-+ Desktop
+## RESEARCH  
 
-![image](https://user-images.githubusercontent.com/19315632/37801164-885066a6-2df3-11e8-87b8-832dcb62643b.png)
-![image](https://user-images.githubusercontent.com/19315632/37802200-6ca2b928-2df7-11e8-9c78-e3218ed89250.png)
+### Actividades de Investigación realizada con los usuarios.  
+**Investigación del usuario -  Información Clave**  
+- Nuestra parte interesada creó esta aplicación para que las personas puedan realizar el cambio de moneda de manera rápida, sencilla y segura, sin embargo no muchos usuarios logran completar la transacción.  
+- Los usuarios no estas familiarizados con el cambio de moneda vía web, ellos prefieren hacerlo de forma presencial porque eso es lo que ellos conocen.  
+- Los usuarios necesitan poder realizar su cambio de moneda con una guía constante ya que el servicio es nuevo para ellos.  
+- La pantalla de confirmación de datos de la operación y registro de cuenta en la web de Rextie existente no es intuitiva.  
 
-+ Mobile
+**Prueba de usabilidad con la web actual**
 
-![image](https://user-images.githubusercontent.com/19315632/37801190-9ae9e9b8-2df3-11e8-8bb9-a879d16713de.png)
+Se realizaron pruebas a 5 personas a las cuales se les pidió que utilicen la web de Rextie y contaran sus experiencias para esta prueba se utilizó la técnica **Thinking Aloud Testing**.  
 
+###### *Definición: En una prueba de pensamiento en voz alta, le pides a los participantes de la prueba que usen el sistema mientras piensan continuamente en voz alta, es decir, simplemente verbalizan sus pensamientos a medida que se mueven a través de la interfaz de usuario.*  
 
-## Presentación
+**Se les pidió que realicen las siguientes actividades:**  
 
-![lamejorexperiencia-teatro](https://user-images.githubusercontent.com/31896385/38197119-586c04e8-364c-11e8-86de-ec9e4a1b683b.jpg)
+- Registrarse e ingresar a la web de Rextie.  
+- Realizar una cotización tanto en soles como dólares.  
+- Registrar una cuenta bancaria personal y de terceros.  
+- Identificar la cuenta a la que realizaran la transferencia.  
+- Finalizar la transacción.
 
-🚩 Tabla de contenido
-- [Estrategia de Investigación](#estrategia-de-investigación)
-- [Empatizando](#empatizando)
-- [Definiendo](#definiendo)
-- [Ideando](#ideando)
-- [Prototipando](#prototipando)
-- [Probando](#probando)
-- [Metodología](#metodología)
-- [Herramientas](#testing)
+**→ Usuario 1: Giancarlos CF.**  
+- No entendía la utilidad del boton que realizaba el cambio de moneda.  
+- No tenia claro por que le decian que ahorraria dinero con respecto a el cambio de otros bancos.  
 
+**→ Usuario 2: Angela HÑ.**  
+- No supo cuando era venta o compra.  
+- No entendía donde era el cambio de moneda.  
 
-## Estrategia-de-investigación
+**→ Usuario 3: Rodrigo HÑ.**  
+- No supo que debia hacer la transferencia en otra cuenta.  
+- Tuvo que probar un par de veces para saber que quería decir “Quiero” y “Tengo”.  
 
-Inicialmente nos centraremos en la necesidad, teniendo los siguientes objetivos de investigación:
+**→ Usuario 4: Yenni Q.**  
+- Tardo en entender cómo hacer una cambio en viceversa dólares - soles.  
+- No comprendió que necesitaba dos cuentas bancarias: una cuenta de soles y otra de dólares.  
 
-* **Conocer a usuarios y necesidades*
-* **Conocer el negocio y su contexto*
-* **Conocer la factibilidad Técnica*
-
-Con dichos objetivos esperamos:
-
-* **Identificar el problema según necesidades*
-* **Oportunidades de mejoras*
-* **Identificar la necesidad del usuario*
-* **Identificar el flujo de la actividad relacionada a la necesidad del usuario*
-* **Identificar un producto mínimo viable*
-* **Realizar prototipado rápido*
-* **Probar prototipo*
-* **Iterar prototipo*
-
-Para lograr estos objetivos y resultados, se elaborará los siguientes documentos:
-
-| Documento | Link de documentación |
-| ----      | ----        |
-| *Plan research* |https://drive.google.com/open?id=17kc1yk0-VC_NKPtshSlbc1EnNVa5PyqtQs7JwRt477w |
-| *Guía de entrevistas y encuestas* |https://drive.google.com/open?id=1j9K1MyYC5du3OxPoldUQ7kVzxKTdbJTDM9dlPfTIYWo |
-| *Usuarios* |https://drive.google.com/open?id=1tStVqv4mBgDO22q5g48jJHIuo7oXVewuuxaZdY_WUvo|
-| *Modelo de Negocio* |https://drive.google.com/open?id=1LDfsPrVGMqoX7HgAxkQpUZv5kojoA4m9 |
-| *Stakeholders* |https://drive.google.com/open?id=1V5kCnO_5Tw8rSSt1Kt8sDaixaCAg-03l |
-| *Design Thinking* |https://drive.google.com/open?id=18etpFWpD_k2y9ERM8tX0dzege_-4uvmL3ltlDlDe7yw |
-
+**→ Usuario 5: Irma ÑV.**  
+- No se muestra con claridad la cuenta a la que se tiene que realizar la transferencia del dinero.  
+- No comprendia que tenia que realizar el deposito por su cuenta pensaba que se la descontaban automaticamente.  
 
-## Empatizando
-En esta etapa se tiene como objetivo, la observación y la interacción con los usuarios, con la finalidad
-de identificar sus necesidades.Teniendo las siguientes actividades:
+### Análisis de la arquitectura de la información de la web de Rextie.  
+En el siguiente esquema, se analizó la información de la web de Rextie que se muestra al usuario.  
+![rectangle 3](https://user-images.githubusercontent.com/31807340/37680825-0b3714e0-2c53-11e8-9ce0-acdbf561ce4b.png)  
+[Ver con detalle](https://drive.google.com/drive/my-drive)  
 
-* **Revisión de data ya existente*
-* **Entrevistas*
-* **Encuestas*
-
-Y de las cuales se desprende las siguientes conclusiones:
-
-**De la revisión de data ya existente sobre la situación del teatro en el País:**
-
-* **En el Peru, sólo el 5% de la currícula vigente es para formación de arte en las escuelas.*
-* **A nivel nacional hay 64 salas de teatro, de las cuales 45 están en Lima.*
-* **Él éxito del teatro depende de: Nro Salas, Alianzas estratégicas, conocer los hábitos de consumo y títulos potentes de la obra.
-* **De cada 10 obras, 1 es exitosa.*
-* **El teatro es autosostenible gracias al auspicio y patrocinio del sector privado.*
-* **Existe mucha oferta y poco público asistente.*
-* **El teatro comercial tiene más funciones en los teatros ubicados en Miraflores, San Isidro, Barranco, Jesús María, Centro de
-Lima, y Plaza Lima Norte.*
-
-**De la revisión de data ya existente sobre usuarios:**
-* **Los usuarios potenciales a largo plazo serían los niños.*
-* **Los usuarios potenciales a corto plazo, los sectores populosos de los conos.*
-* **El perfil del espectador es 33% son adultos, 28% son jóvenes y 39 % son otras edades.*
-* **El 57% de espectadores tienen un nivel educativo superior.*
-* **2 de cada 10 peruanos van al teatro.*
-* **Las mujeres son las que más compran entradas.*
-* **No tienen en su agenda ir al teatro.*
-* **Preferencias por el género comedia sobre los de drama.*
-* **Prefieren las obras donde publiciten actores conocidos, como los que trabajan en la tv.*
+## SINTESIS  
 
-**De las entrevistas:**
+#### Problemas principales  
+Según las entrevistas y el análisis del sitemap se encontraron los siguientes problemas a solucionar.  
 
+**1.Vista nueva operación**  
+- No se muestra de forma clara cuándo es compra y cuando es venta.  
+- No se identifica el botón de cambio de moneda no es clara su utilidad.  
 
-**De las encuestas:**
-* **Los usuarios por falta de tiempo no van al teatro.*
-* **No conocen la cartelera actual:*
-* **Si van al teatro, prefieren asientos numerados.*
-* **Preferencia por comprar boletos através de internet.*
-* **Irían al teatro por que es de su preferencia y/ó por recomendación de obras.*
-* **No tienen frecuencia fija de ir al teatro.*
-* **Tuvieron una buena experiencia al asistir al teatro.*
-* **Las referencias del teatro: el nombre, la ubicación de referencia, fachada, eventos y redes sociales; y por los actores.*
-* ** **La publicidad es un aspecto importante para su decisión de ir al teatro.*
-* **Tienen preferencia de asientos por ubicación platea de 1er piso.*
-* **Si tuvieran que ir al teatro, previamente les gustaría saber sobre los asientos y zonas.*
-* **El 100 % de los usuarios indicó que iría acompañado al teatro.*
-* **Estarían interesados en obtener información de las funciones segun sus preferencias.*
-* **Les agradaría recibir la entrada por correo electrónico.*
-
-Teniendo la siguiente documentación con respectivas conclusiones:
-
-| Tema| Link de documentación |
-| ----      | ----        |
-| *Usuarios |https://drive.google.com/open?id=1tStVqv4mBgDO22q5g48jJHIuo7oXVewuuxaZdY_WUvo |
-| *Guía de entrevistas y encuestas|https://drive.google.com/open?id=1j9K1MyYC5du3OxPoldUQ7kVzxKTdbJTDM9dlPfTIYWo |
-
-## Definiendo
-
-Luego de la investigación , y de realizar metodologías de síntesis, se tiene las siguientes temas en conclusiones, que abordan la identificación de problemas:
-
-**Del lado del Usuario**
-- Tiempo
-- Información
-- Obras
-- Rápido acceso a la web o aplicación
-- Publicidad amigable del evento
-- Entrada
-- Compra online
-- Selección de asientos numerados
-- Recomendaciones
-- Teatros y sus características particulares
-- Zonas
-- Precio de entrada
-- Terminos y condiciones
+**2.Opcion de registro**  
+- No se tiene claro desde el inicio que tiene que registrar cuenta en soles y dólares.  
+- El registro de cuentas solo permite hacerlo uno por uno de forma individual.  
 
-**Del lado del Negocio**
-Joinnus :  
-- Venta boletos online
-- Diferenciación de la competencia
-- Brindar información completa de asientos
-- Reducir reclamos
-- Brindar experiencia única al usuario desde el dar a conocer el evento al hasta obtener su recomendación.
+**3.Opcion de Selección de cuentas (Origen/Destino)**  
+- Al seleccionar cuenta de origen no hay una guía que le indique al usuario que es la cuenta de la que se realizara la transferencia.  
+- Al seleccionar la cuenta de destino hay una guía que le indique al usuario que tiene que añadir otra cuenta y de diferente denominación de la que transfirió.  
 
-**Del lado de la viabilidad tecnológica.**
-- Entrada vía correo
-- Disponibilidad de la plataforma online y app 24x7
-- Rápida visualización de las imágenes de la web y/o app.
-- Tiempo de confirmación  rápida de entrada por correo.
-
-
-| Tema| Link de documentación |
-| ----      | ----        |
-| Conclusiones Finales |https://drive.google.com/open?id=1tF_Q1vD-COcFqq7fWls3L-0znsMv9WVd9hdiGCymXco|
+**4.Notificacion de la operación**  
+- Al mostrar el mensaje de últimos pasos de la operación no se muestra con claridad la cuenta a la que se tiene que realizar la transferencia del dinero.  
+- Al inicio de la notificación aparece el código de operación eso da a entender al usuario que la operación ha culminado.  
 
+### User Personas  
+Creamos un par de "personajes" ficticios para organizar y descubrir patrones en los objetivos, comportamientos y puntos débiles del usuario. Cada uno de ellos representa un tipo de usuario, que podría abordar uno de los problemas que vamos resolver.  
 
-## Ideando
-
-Luego que se han definido los temas centrales del lado del usuario, negocio y y viabilidad tecnologica. 
-Se procede a realizar listas de problemas y propuestas de solución. Siendo las siguientes:
-
-**Lista de Problemas**
-* **Falta de conocimiento de las preferencias de los usuarios según perfiles.*
-* **Falta de información centralizada y completa acerca de eventos de teatro.*
-* **Falta de un espacio común de contacto para recomendaciones cercano a todo público.*
-* **Falta de publicidad adecuada para dar a conocimiento la cartelera de obras en extreno:*
-* **Falta de información de la experiencia de ir al teatro.*
-* **Falta información de teatros.*
-
-**Lista de Propuestas de solución**
-* **Brindar información sobre el teatro.*
-* **Brindar información completa por evento.*
-* **Canalizar publicidad amigable al usuario.*
-* **Dar la oportunidad de valorar y recomendar un evento.*
-* **Spot video publicitario de 1 min y medio de duración con la invitación y fotografías de mejores escenas.*
-* **Selección de asientos en pocos pasos, mateniendo la vista global del mapa y el zomm en paralelo.*
-* **Comprar boletos desde la web ó una app sin necesidad de ir presencialmente para recoger entrada.*
-* **Que la identificación de usuario con descuento especial sea validada sólo una vez.*
-
-
-**Identificación de Producto Mínimo Viable PMV**
-
-Para la identificación del PMV, se ha tomó en cuenta lo siguiente:
-
-* Eventos de obras teatrales con asientos numerados.
-* Mejorar la experiencia de compra, desde la información, selección de asiento y capturar la calificación del evento.
-* Requerimientos de Joinnus para el reto.
-
-**El producto mínimo viable, contendrá las siguientes mínimas características:**
-
-Por lo que se tiene las siguientes características:
-
-| Tipo| Característica |
-| ----      | ----        |
-| Adicional   | Información guía del evento de teatro , categorizado con tags : fotografías, obra, reparto, spot y calificación|
-| Mejora  |Filtros iniciales para el evento : fechas , zonas y funciones disponibles. |
-| Requisito |Botón "ver mapa |
-| Requisito |Vista global del mapa con áreas de colores y leyenda |
-| Requisito |Abrir vista según la área del mapa seleccionada |
-| Requisito |Visualización de asientos según forma de área y con leyenda de según disponibilidad |
-| Requisito |Asientos seleccionables según disponibilidad y con color diferenciado|
-| Requisito |Visualización de información de tipo de entrada ( niño, adulto mayor, etc) |
-| Adicional |Panel paralelo visual con la lista de entradas que se van agregando a la compra con su respectivo precio 
-y con la posibilidad de poder eliminar en cualquier momento|
-| Requisito |Posibilidad de regresar a la vista general del mapa para escoger asientos en otra área|
-
-
-| Tema| Link de documentación |
-| ----      | ----        |
-| **Conclusiones Finales** |https://drive.google.com/open?id=1FipNus2pR6ZKABW1o99hihi--NgCMa9_4OsiBuRvFUM|
-
-## Prototipando
-
-*En la siguiente vista se puede apreciar la presentación de un evento de teatro, en este caso de una obra
-didáctica familiar, dirigida al público objetivo potencial.* 
-
-*Reune toda información del evento de una manera ordenada , completa y fácil de navegar, pensando en las expectativas del usuario.*
-
-*Se brinda los filtros necesarios para que pueda rápidamente saber de las fechas, funciones, tipos y 
-precios de las entradas.*
-
-![1](https://user-images.githubusercontent.com/31896385/38191811-ba8af3ea-362f-11e8-8f8e-197d75345e8c.png)
-
-*Luego , de que el usuario decide comprar, un tema importante es la selección de las zonas y ubicaciones de los asientos.*
-
-*Para ello se le brinda la posibilidad de seleccionar el mapa de ubicacion, el cual despliega visualmente las zonas diferenciadas 
-por colores, leyenda respectiva y precios.*
-
-*Asimismo al seleccionar una área, está es vista en tamaño aumentado en paralelo a la vista
-global del mapa.*
-
-![12](https://user-images.githubusercontent.com/31896385/38191864-fb58bef2-362f-11e8-839a-e8340ccbc2c1.png)
-
-*Se puede tener la visualización completa de la demo de prototipo, en el siguiente enlace.*
-
-| Herramienta | Descripción |Descripción |
-| ----      | ----        |----        |
-| **Marvel** |Versión 1 - Destokp |https://marvelapp.com/43ig4bd/screen/40540004 |
-| **Marvel** |Versión 1.1 - Destokp |https://marvelapp.com/3331e55|
-
-## Testeando
-
-## Metodologías
-| Metodología | Descripción |
-| ----      | ----        |
-| **Design Thinking** | |
-| **Brainstorming** | |
-| **Benchmark** | |
-| **Modelo Canvas Bussines** | |
-| **User Persona** | |
-| **Rápido Prototipado** | |
-
-
-
-## Herramientas
-| Herramientas | Descripción | Especialidad | 
-| ----      | ----        | ----        |
-| **Figma** | Modelo de alta fidelidad|  UX Designer|
-| **Marvel** |Prototipo| UX Designer|
-| **React** | |Front End |
-| **Redux** | |Front End |
-| **Bootstrap 4** | |Front End | 
-| **Html** | | Front End|
-| **Css** | |Front End |
-
-## Integrantes
-+ Betsy Lara
-+ Yenny Quiñones
-+ Margarita Sutta
+![rextie 16](https://user-images.githubusercontent.com/31807340/38168690-0d4c9bae-351a-11e8-889f-2185d88c678a.png)
+
+## SOLUCIÓN  
+
+### Prototipo de alta fidelidad (Versión 1)  
+Con toda la información de la investigación realizada rediseñamos la web de Rextie manteniendo su esencia y haciéndolo mas intuitivo  
+[Ver prototipo aquí!](https://marvelapp.com/3bi16f0)  
+
+**Pantalla Inicial**  
+Se añadió una vista de bienvenida amigable para el usuario esta se muestra después del registro.  
+En la segunda vista se muestra de forma más visible cuando se realiza una operación de compra o venta.
+
+![37799726-98c252d8-2dee-11e8-9307-c1f55b3aaae5](https://user-images.githubusercontent.com/31807340/38168169-b52a1a64-350a-11e8-8327-ccb0499d2b9f.png)  
+
+**Vista confirmación de datos**  
+Se añadió el mensaje que especifica que se debe agregar cuentas tanto en dólares como en soles.
+![desktop 6](https://user-images.githubusercontent.com/31807340/37800608-71a41206-2df1-11e8-84c0-0eb55982c007.png)  
+
+**Vista añadir terceros**  
+Se añadió una alerta que le permite al usuario añadir una cuenta más, así recuerda que debe añadir dos cuentas.
+![desktop 7](https://user-images.githubusercontent.com/31807340/37801687-8303770e-2df5-11e8-9124-fde8993d1a8e.png)  
+
+**Vista modal confirmación**  
+En la vista de notificación se utilizó un lenguaje amigable para que el usuario pueda comprender con facilidad en que cuenta debe realizar la transferencia de dinero.
+![desktop 8](https://user-images.githubusercontent.com/31807340/37802057-e57a4f4c-2df6-11e8-945a-8071d87e2a3f.png)
+
+

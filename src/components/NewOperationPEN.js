@@ -9,7 +9,7 @@ const NewOperationPEN = ({setExchange2Changed, secondText, outputText, setOutput
        }}>Venta:{' '}<span>{sell}</span></p>
     </div>
     <div className="coin">
-      <span>{moneyType}</span><span><img className="flag-icon" src={"assets/icons/" + peru} alt={peru} /></span>
+      <span>{moneyType}</span><span><img className="flag-icon" src={peru} alt={peru} /></span>
     </div>
     <div className="what-i-have">
       <p>{secondText}</p>
