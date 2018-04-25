@@ -4,7 +4,7 @@ import NavigationOptionsList from './navigationOptionsList.js';
 import { Link } from 'react-router-dom';
 
 //Style 
-import '../style/style.css';
+import '../style/css/style.css';
 import playButton from '../assets/icons/play-button.png';
 import user from '../assets/icons/user.png';
 import creditCard from '../assets/icons/credit-card.png';

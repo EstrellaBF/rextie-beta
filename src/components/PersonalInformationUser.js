@@ -5,7 +5,7 @@ const PersonalInformationUser = ({ info }) => (
     {/* {info.map(info.map((i, v)=>{console.log(i)}))}  */}
     {info.map(i =>  
       <div className="profile-info">
-        <label for="birth-date">{i.label}</label>
+        <span>{i.label}</span>
         <input type="text" className="" id="birth-date" placeholder={i.placeholder} />
       </div>
     )};

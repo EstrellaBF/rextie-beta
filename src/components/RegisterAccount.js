@@ -1,6 +1,7 @@
 import React from 'react';
 
 import plusButton from '../assets/icons/plus-button.png'
+import deleteButton from '../assets/icons/delete.png'
 
 function hacerClick()
 	{
@@ -13,7 +14,7 @@ const RegisterAccount = ({ click }) => {
   <div className="personal-bank-account">
     <div className="header-personal-bank-account">
       <h3>Cuentas Bancarias Personales -  </h3>
-      <img src={plusButton} />
+      <img class="img-responsive" src={plusButton} alt="plusbutton"/>
     </div>
     <div className="soles-account">
       <p>Soles</p>
@@ -32,7 +33,7 @@ const RegisterAccount = ({ click }) => {
             <td>Ahorros</td>
             <td>19136248273015</td>
             <td className="in-use"><button type="button" className="active-button" onclick={hacerClick}>Activo</button></td>
-            <td>X</td>
+            <td className="delete-box"><button type="button" className="delete-button" onclick={hacerClick}><img class="img-responsive" src={deleteButton} alt="deleteButton"/></button></td>
           </tr>
         </tbody>
       </table>

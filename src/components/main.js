@@ -9,7 +9,7 @@ import NewOperation from '../containers/NewOperation';
 import RegisterAccount from './RegisterAccount';
 import PersonalInformation from './PersonalInformation';
 
-import '../style/style.css'
+import '../style/css/style.css'
 
 const Main = () => {
   return (

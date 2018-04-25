@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './header'
+import Header from './Header'
 import Main from './main'
 import Aside from './aside';
 
 // estilo
 
-import '../style/style.css'
+import '../style/css/style.css'
 import logo from '../assets/icons/logo.png'
 
 const App = () => (
