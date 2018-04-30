@@ -9,17 +9,17 @@ import NewOperation from '../containers/NewOperation';
 import RegisterAccount from './RegisterAccount';
 import PersonalInformation from './PersonalInformation';
 
-import '../style/style.css'
+import '../style/css/style.css'
 
 const Main = () => {
   return (
     <main className="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-8">
       <Switch>
-        <Route exact path='/' component={NewOperation} />
-        <Route path= '/personal-information' component={PersonalInformation}/>
-        <Route path='/historial' component={TransactionHistory} />
-        <Route path='/bank-rextie' component={RextieBankAccounts} />
-        <Route path='/register-acount' component={RegisterAccount} />
+        <Route exact path='/rextie-beta/' component={NewOperation} />
+        <Route path= '/rextie-beta/personal-information' component={PersonalInformation}/>
+        <Route path='/rextie-beta/historial' component={TransactionHistory} />
+        <Route path='/rextie-beta/bank-rextie' component={RextieBankAccounts} />
+        <Route path='/rextie-beta/register-acount' component={RegisterAccount} />
       </Switch>
     </main>
   )

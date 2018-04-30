@@ -1,7 +1,6 @@
-import {actionTypes} from '../actions/index';
-import iconSoles from '../assets/icons/pe.png';
-import iconDollar from '../assets/icons/us.png';
-
+import {actionTypes} from '../actions/index'
+import iconSoles from '../assets/icons/pe.png'
+import iconDollar from '../assets/icons/us.png'
 
 const DATA = {
   iHaveText: 'Tengo',
