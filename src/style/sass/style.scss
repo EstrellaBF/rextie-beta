@@ -6,7 +6,7 @@
 
 $blue: #26A8E0;
 $green: #7ACE3B;
-$almost-white: #F6F9FC;
+$almost-white: #fcfff9;
 $dark-grey: #737476;
 $middle-grey: #A2A2A2;
 $light-grey: #E6E7E8;
@@ -82,9 +82,9 @@ header {
 
 /* New Operation */
 .new-operation {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 10vh;
   .main-box {
     text-align: center;
@@ -315,7 +315,8 @@ header {
     }   
     tbody {
       tr {
-        background-color: $light-grey;
+        // background-color: $light-grey;
+        border: 1px solid $light-grey;
       }
     }   
     td {
@@ -334,8 +335,12 @@ header {
     font-size: 1.4rem;
   }
   .rextie-bank-accounts-table-container {
-    // margin: 1em 0 2em;
+    margin: 1em 0 2em;
     width: 100% !important;
+    h4 {
+      font-weight: 600;
+      font-size: 1rem;
+    }
     p {
       font-size: 0.8rem;
       margin: 0.7em 0 1.6em 0;
@@ -390,7 +395,7 @@ tbody {
     border: 1px solid $light-grey; 
     padding: 0.5em;
     width: 11em;   
-    color: $dark-grey;
+    color: #000;
   }
   
   .data-soles {
@@ -422,6 +427,9 @@ tbody {
   
   table th {
     padding: 1em 0.3em;
+  }
+  .new-operation {
+    width: 60%;
   }
 }
 

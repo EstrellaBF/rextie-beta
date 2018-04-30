@@ -33,7 +33,7 @@ const RextieBankAccounts = () => {
         </table>
       </div>
       <div className="rextie-bank-accounts-table-container">
-        <p>BCP</p>
+        <h4>BCP</h4>
         <table>
           <thead>
             <tr>
@@ -57,7 +57,7 @@ const RextieBankAccounts = () => {
         </table>
       </div>
       <div className="rextie-bank-accounts-table-container">
-        <p>INTERBANK</p>
+        <h4>INTERBANK</h4>
         <table>
           <thead>
             <tr>

@@ -46,6 +46,9 @@ header {
 
 /* New Operation */
 .new-operation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 10vh; }
   .new-operation .main-box {
     text-align: center;
@@ -124,7 +127,7 @@ header {
       background-color: #7ACE3B;
       border-radius: 50px;
       border: 1px solid #7ACE3B;
-      color: #F6F9FC;
+      color: #fcfff9;
       font-size: 1.1em;
       outline: 0; }
 
@@ -193,7 +196,7 @@ header {
   .transaction-history-container table thead tr {
     font-weight: 700; }
   .transaction-history-container table tbody tr {
-    background-color: #E6E7E8; }
+    border: 1px solid #E6E7E8; }
   .transaction-history-container table td {
     padding: 0.8em; }
 
@@ -204,7 +207,11 @@ header {
   .rextie-bank-accounts h2 {
     font-size: 1.4rem; }
   .rextie-bank-accounts .rextie-bank-accounts-table-container {
+    margin: 1em 0 2em;
     width: 100% !important; }
+    .rextie-bank-accounts .rextie-bank-accounts-table-container h4 {
+      font-weight: 600;
+      font-size: 1rem; }
     .rextie-bank-accounts .rextie-bank-accounts-table-container p {
       font-size: 0.8rem;
       margin: 0.7em 0 1.6em 0; }
@@ -236,9 +243,9 @@ tbody th {
   border: 1px solid #E6E7E8;
   padding: 0.5em;
   width: 11em;
-  color: #737476; }
+  color: #000; }
 .container-soles .data-soles {
-  background-color: #F6F9FC; }
+  background-color: #fcfff9; }
 
 @media (min-width: 576px) {
   .logo {
@@ -252,7 +259,10 @@ tbody th {
     margin-left: 1.6em; }
 
   table th {
-    padding: 1em 0.3em; } }
+    padding: 1em 0.3em; }
+
+  .new-operation {
+    width: 60%; } }
 @media (min-width: 1200px) {
   .logo {
     width: 12%;

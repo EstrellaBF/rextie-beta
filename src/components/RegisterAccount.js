@@ -13,8 +13,8 @@ const RegisterAccount = ({ click }) => {
   return(
   <div className="personal-bank-account">
     <div className="header-personal-bank-account">
-      <h3>Cuentas Bancarias Personales -  </h3>
-      <img class="img-responsive" src={plusButton} alt="plusbutton"/>
+      <h3>Cuentas Bancarias Personales </h3>
+      {/* <img class="img-responsive" src={plusButton} alt="plusbutton"/> */}
     </div>
     <div className="soles-account">
       <p>Soles</p>

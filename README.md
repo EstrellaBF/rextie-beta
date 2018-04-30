@@ -91,3 +91,4 @@ Creamos un par de "personajes" ficticios para organizar y descubrir patrones en 
 
 ![rextie 16](https://user-images.githubusercontent.com/31807340/38168690-0d4c9bae-351a-11e8-889f-2185d88c678a.png)
 
+
